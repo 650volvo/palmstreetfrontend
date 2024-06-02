@@ -3,7 +3,7 @@ import { Component, useState, useEffect } from "react";
 import { useSelector, useDispatch, connect } from "react-redux";
 import classes from "./Counter.module.css";
 import axios from "axios";
-import FixedBanner from "./FixedBanner.js";
+import FixedBanner from "./FixedBanner";
 
 //function based component
 const Counter = () => {
